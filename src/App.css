@@ -22,6 +22,7 @@ h1{
 
 h2{
   margin-bottom: 10px;
+  text-align: center;
 }
 
 p{
@@ -33,19 +34,20 @@ input{
 }
 
 button{
-  background-color: #6DA5C0;
-  color: #05161A;
-  padding: 5px 10px;
+  background-color: rgb(8, 123, 65);
+  color: #FFF;
+  padding: 10px 20px;
   margin-right: 10px;
   border: none;
   border-radius: 3px;
   cursor: pointer;
-  opacity: .7;
+  opacity: .8;
   transition: .3s;
 }
 
 button:hover{
-  opacity: 1.5;
+  opacity: 1;
+
 }
 
 .todo-form{
@@ -53,11 +55,12 @@ button:hover{
 }
 
 input, select{
-  padding: 5px;
-  margin-bottom: 10px;
-  border: 1px solid #0c7076;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 2px solid #0c7076;
   border-radius: 3px;
   width: 100%;
+  font-size: large;
 }
 
 .todo-list{
@@ -81,9 +84,21 @@ input, select{
   background-color: #B51A2B;
   color: #FFF;
   border-radius: 30%;
+  padding: 10px;
 }
 
 .complete{
   background-color: #0F969C;
   color: #FFF;
+  padding: 10px 20px;
 }
+
+.content{
+  font-size: 25px;
+}
+
+.categoria{
+  color: #7f7e7e;
+}
+
+
