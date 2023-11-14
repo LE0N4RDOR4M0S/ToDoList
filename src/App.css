@@ -1,0 +1,89 @@
+body{
+  font-family: Arial;
+  background-color: #05161A;
+  padding: 30px;
+  color: #efefef;
+  background-image: url('./img/photo.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.app{
+  max-width: 600px;
+  margin: 0 auto 300px;
+  background-color: #05161A;
+  border-radius: 15px;
+  padding: 20px 30px;
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  margin-bottom: 10px;
+}
+
+p{
+  margin: 10px 0;
+}
+
+input{
+  box-sizing: border-box;
+}
+
+button{
+  background-color: #6DA5C0;
+  color: #05161A;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  opacity: .7;
+  transition: .3s;
+}
+
+button:hover{
+  opacity: 1.5;
+}
+
+.todo-form{
+  padding-bottom: 1.5rem;
+}
+
+input, select{
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #0c7076;
+  border-radius: 3px;
+  width: 100%;
+}
+
+.todo-list{
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #0c7076;
+}
+
+.todo{
+  background-color: #072E33;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.delete{
+  background-color: #B51A2B;
+  color: #FFF;
+  border-radius: 30%;
+}
+
+.complete{
+  background-color: #0F969C;
+  color: #FFF;
+}
