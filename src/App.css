@@ -11,7 +11,7 @@ body{
 .app{
   max-width: 600px;
   margin: 0 auto 300px;
-  background-color: #05161A;
+  background-color: #1D1A39;
   border-radius: 15px;
   padding: 20px 30px;
 }
@@ -39,7 +39,7 @@ input{
 }
 
 button{
-  background-color: rgb(8, 123, 65);
+  background-color: #AE444A;
   color: #FFF;
   padding: 10px 20px;
   margin-right: 10px;
@@ -76,7 +76,7 @@ input, select{
 }
 
 .todo{
-  background-color: #072E33;
+  background-color: #141229;
   box-shadow: 0 0 10px rgba(0, 0, 0, .1);
   padding: 10px;
   margin-bottom: 10px;
@@ -94,7 +94,7 @@ input, select{
 }
 
 .complete{
-  background-color: #0F969C;
+  background-color: #F39F5A;
   color: #FFF;
   padding: 10px 25px;
   font-size: 15px;
