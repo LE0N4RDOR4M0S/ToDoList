@@ -1,12 +1,14 @@
-import { useState } from 'react';
-import Todo from './components/Todo';
+import { useState, useRef } from 'react';
 import "./App.css";
-import Todoform from './components/Todoform';
-import Search from './components/Search';
 import Filter from './components/Filter';
+import Search from './components/Search';
+import Todo from './components/Todo';
+import Todoform from './components/Todoform';
 
 function App() {
-  const [ todos, setTodos ] = useState([])
+  const [ todos, setTodos ] = useState([]);
+
+  const audioRef = useRef(null);
 
   const AddTodo = (text,category) => {
 
@@ -41,8 +43,22 @@ function App() {
     setTodos(newTodos);
   };
 
+  const togglePlay = () => {
+    const audio = audioRef.current;
+    if (audio.paused) {
+      audio.play();
+    } else {
+      audio.pause();
+    }
+  };
+
   return (
     <div>
+        <audio ref={audioRef} autoPlay loop>
+          <source src="src/audio/drunk.mp3" type="audio/mp3" />
+          Seu navegador não suporta a tag de áudio.
+        </audio>
+        <button className="play-pause-button" onClick={togglePlay}>Play/Pause</button>
       <div className="app add">
         < Todoform AddTodo={AddTodo} />
       </div>
@@ -85,5 +101,6 @@ function App() {
     </div>
     )
 }
+
 
 export default App

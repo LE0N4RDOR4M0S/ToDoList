@@ -132,3 +132,7 @@ input, select{
   font-size: 18px;
   margin-top: none;
 }
+
+.mute{
+  margin-top: 10px;
+}
