@@ -127,3 +127,8 @@ input, select{
 .add{
   margin-bottom: 30px;
 }
+
+.rodape{
+  font-size: 18px;
+  margin-top: none;
+}

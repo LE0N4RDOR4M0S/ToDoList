@@ -77,6 +77,11 @@ function App() {
           ))}
         </div>
     </div>
+      <div className="rodape">
+        <p>Criado e desenvolvido por Leonardo de Oliveira Ramos</p>
+        <p>Contato: leoolivramos@gmail.com</p>
+        <p>Mais em: https://github.com/LE0N4RDOR4M0S</p>
+      </div>
     </div>
     )
 }
